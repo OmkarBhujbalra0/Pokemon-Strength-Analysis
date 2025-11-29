@@ -21,7 +21,7 @@ The following Dataset contains
 [#Pokemon_Dataset_Extraction.ipynb] - The whole procedure is implemented in this Python Notebook.
 [#pokemon_dataset.csv] -> This is output/dataset obtained after extraction and cleaning.
 
-##Usage
+## Usage
 
 - Exploratory Data Analysis (EDA)
 
