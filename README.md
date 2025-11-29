@@ -1,6 +1,6 @@
 # Pokemon Dataset
 
-This repository consist of Python Notebook where I implemented Data Extraction and perform tasks like Feature Engineering,Data Cleaning and formed a comprehensive dataset.
+This repository consist of Python Notebook where I implemented Data Extraction using PokeAPI and perform tasks like Feature Engineering,Data Cleaning and formed a comprehensive dataset.
 The following Dataset contains 
 
 
