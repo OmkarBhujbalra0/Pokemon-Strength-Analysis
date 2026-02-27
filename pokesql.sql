@@ -49,4 +49,7 @@ references Types_Table(type_id)
 on delete restrict
 );
 
-insert into Stats_Table values(2345,34,53,46,75,58,75);
+select * from pokemon_table left join stats_table on pokemon_table.pokemon_id = stats_table.pokemon_id;
+select * from pokemon_table left join metrics_table on pokemon_table.pokemon_id = metrics_table.pokemon_id;
+select * from pokemon_table right join pokemon_types on pokemon_table.pokemon_id = pokemon_types.pokemon_id;
+select * from pokemon_types right join types_table on pokemon_types.type_id = types_table.type_id;
