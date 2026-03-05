@@ -53,3 +53,8 @@ select * from pokemon_table left join stats_table on pokemon_table.pokemon_id = 
 select * from pokemon_table left join metrics_table on pokemon_table.pokemon_id = metrics_table.pokemon_id;
 select * from pokemon_table right join pokemon_types on pokemon_table.pokemon_id = pokemon_types.pokemon_id;
 select * from pokemon_types right join types_table on pokemon_types.type_id = types_table.type_id;
+
+alter table pokemon_table
+add column is_mythical boolean default false;
+
+select * from pokemon_table;
