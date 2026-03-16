@@ -29,7 +29,7 @@ from pokemon_table p
 join metrics_table m
 on p.pokemon_id = m.pokemon_id) as ranktable
 where rankpergen <= 3
-order by avgstats desc;
+order by generation,avgstats desc;
 
 -- Pokemons whose total_stats are greater than avg_total_stats of their generation
 
