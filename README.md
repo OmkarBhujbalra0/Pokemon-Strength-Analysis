@@ -17,7 +17,7 @@ This project analyzes Pokémon stats across generations to uncover:
 The goal is to transform raw API data into meaningful insights through structured data modeling, SQL analysis, and interactive dashboards.
 
 ## SCHEMA DIAGRAM
-https://github.com/OmkarBhujbalra0/Pokemon-Strength-Analysis/blob/adcda5aa90d9859b5d48551125b7b856268fe000/PokeSchema.png
+![https://github.com/OmkarBhujbalra0/Pokemon-Strength-Analysis/blob/adcda5aa90d9859b5d48551125b7b856268fe000/PokeSchema.png]
 
 ## 🧠 Key Learnings
 
