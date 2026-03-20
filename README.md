@@ -1,34 +1,77 @@
-# Pokemon Dataset
+#Pokémon Power Analytics
 
-This repository consist of Python Notebook where I implemented Data Extraction using PokeAPI and perform tasks like Feature Engineering,Data Cleaning and formed a comprehensive dataset.
-The following Dataset contains 
+An end-to-end data analytics project that explores power trends, specialization, and design patterns across Pokémon generations using Python, SQL, and Power BI.
 
+## 🚀 Project Overview
 
-| Column            | Description                                                                              |
-| ----------------- | ---------------------------------------------------------------------------------------- |
-| `Id`              | Unique Pokémon ID                                                                        |
-| `Name`            | Pokémon name                                                                             |
-| `Base_Experience` | Base experience points gained when defeated                                              |
-| `Height`          | Height of the Pokémon (decimetres)                                                       |
-| `Weight`          | Weight of the Pokémon (hectograms)                                                       |
-| `Stats`           | Base stats for the Pokémon (HP, Attack, Defense, Special Attack, Special Defense, Speed) |
-| `Types`           | Primary and secondary types (`Type_1`, `Type_2`)                                         |
-| `Egg_Groups`      | Egg groups for breeding                                                                  |
-| `Species`         | Pokémon species classification                                                           |
-| `Capture_Rate`    | Likelihood of catching the Pokémon                                                       |
-| `Base_Happiness`  | Base happiness level                                                                     |
+This project analyzes Pokémon stats across generations to uncover:
 
-[#Pokemon_Dataset_Extraction.ipynb] - The whole procedure is implemented in this Python Notebook.
+- 📈 Power Creep – Are Pokémon getting stronger over time?
 
-[#pokemon_dataset.csv] -> This is output/dataset obtained after extraction and cleaning.
+- ⚖️ Rarity Gap – How do Legendary Pokémon compare to non-Legendary?
 
-## Usage
+- 🎯 Specialization Trends – Are Pokémon becoming more specialized or balanced?
 
-- Exploratory Data Analysis (EDA)
+- 🔥 Type Identity – How different types behave in terms of offense and defense
 
-- Pokémon type and stat comparison
+The goal is to transform raw API data into meaningful insights through structured data modeling, SQL analysis, and interactive dashboards.
 
-- Game strategy analysis
+## SCHEMA DIAGRAM
+https://github.com/OmkarBhujbalra0/Pokemon-Strength-Analysis/blob/adcda5aa90d9859b5d48551125b7b856268fe000/PokeSchema.png
+
+## 🧠 Key Learnings
+
+- Converting API data into a structured dataset
+- Designing a relational database schema from flat data
+- Creating relationships between multiple tables
+- Writing advanced SQL queries using:
+  1. CTEs
+  2. Window Functions
+  3. Subqueries
+- Performing statistical analysis (Mean, Std Dev, CV)
+- Building interactive dashboards in Power BI
+
+## 🛠️ Tech Stack
+
+- Python – Data collection & preprocessing
+- SQL (MySQL) – Data modeling & analysis
+- Power BI – Dashboard & visualization
+- Pandas  – Data manipulation
+  
+## 📊 Analysis Breakdown
+1. Power Creep
+Tracks average total stats across generations
+Identifies whether newer Pokémon are stronger
+
+2. Rarity Gap
+Compares Legendary vs Non-Legendary Pokémon
+Measures differences in average stats and distributions
+
+3. Specialization
+Uses Standard Deviation / Coefficient of Variation (CV)
+Identifies whether Pokémon are:
+- Balanced
+- Offensive-focused
+- Defensive-focused
+
+4. Type Identity
+Handles dual-type Pokémon by expanding them into multiple rows
+Analyzes:
+- Offensive strength by type
+- Defensive strength by type
+- Design bias across generations
+
+## 📈 Dashboard Features (Power BI)
+- Multi-page navigation dashboard
+- Interactive slicers (Generation, Type, Category)
+- KPI cards for quick insights
+- Trend charts & comparison visuals
+
+## ⚡ Key Insights
+- Pokémon stats show a clear power creep trend over generations
+- Legendary Pokémon consistently outperform others, but the gap varies
+- Modern generations show increased specialization
+- Certain types are heavily biased toward offense or defense
 
 ### Dataset Link: https://www.kaggle.com/datasets/omkarbhujbalrao/pokemon-dataset-gen-1-9
 
