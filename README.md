@@ -1,6 +1,8 @@
-#Pokémon Power Analytics
+# Pokémon Power Analytics
 
 An end-to-end data analytics project that explores power trends, specialization, and design patterns across Pokémon generations using Python, SQL, and Power BI.
+
+![Screenshot](images/demoscreenshot.png)
 
 ## 🚀 Project Overview
 
@@ -17,7 +19,7 @@ This project analyzes Pokémon stats across generations to uncover:
 The goal is to transform raw API data into meaningful insights through structured data modeling, SQL analysis, and interactive dashboards.
 
 ## SCHEMA DIAGRAM
-![PokeSchema.png]
+![Schema](images/PokeSchema.png)
 
 ## 🧠 Key Learnings
 
